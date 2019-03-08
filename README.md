@@ -18,7 +18,7 @@ not work.
 Whenever you are executing a python script, make sure you are in the
 virtual environment provided by `pipenv shell`
 
-### Ledger Signging
+### Ledger Signing
 
 1. [node.js]
 2. [Ledger Nano S]
