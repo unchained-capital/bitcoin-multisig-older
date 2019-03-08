@@ -107,8 +107,8 @@ to the other signer.
 
 The steps are the same for both Trezor and Ledger:
 
-1. Modify the template at either [template/template_trezor.sh] or
-[template/template_ledger.sh]
+1. Modify the template at either [templates/template_trezor.sh](templates/template_trezor.sh) or
+[templates/template_ledger.sh](templates/template_ledger.sh)
 2. Enter the BIP32 For the key you control
 3. Enter the amount you are sending (in BTC) to the output address
 4. Enter the Output address
