@@ -95,11 +95,11 @@ make js-test-integration
 ## Examples
 
 Examples of the full set of command line scripts are available in
-[examples/run_all_trezor.sh] and [examples/run_allledger.sh].
+[examples/run_all_trezor.sh](examples/run_all_trezor.sh) and [examples/run_allledger.sh](examples/run_allledger.sh).
 
 If you are starting from a funded multisig vault and corresponding information,
-examples are provided in [examples/spend_only_trezor.sh] and
-[examples/spend_only_ledger.sh]. Both signers need identical input and output
+examples are provided in [examples/spend_only_trezor.sh](examples/spend_only_trezor.sh) and
+[examples/spend_only_ledger.sh](examples/spend_only_ledger.sh). Both signers need identical input and output
 files, so either confirm they are the same, or have one signer pass their files
 to the other signer.
 
