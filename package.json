@@ -1,0 +1,72 @@
+{
+  "name": "bitcoin-multisig",
+  "version": "1.0.0",
+  "description": "Bitcoin Multisig =================",
+  "main": "index.js",
+  "publicPrivate": true,
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/unchained-capital/bitcoin-multisig.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/unchained-capital/bitcoin-multisig/issues"
+  },
+  "homepage": "https://github.com/unchained-capital/bitcoin-multisig#readme",
+  "devDependencies": {
+    "@ledgerhq/hw-app-btc": "^4.21.0",
+    "@ledgerhq/hw-transport-u2f": "^4.21.0",
+    "@ledgerhq/hw-transport-node-hid": "^4.22.0",
+    "babel-runtime": "^6.26.0",
+    "babel-polyfill": "^6.26.0",
+    "node-fetch": "^2.3.0",
+    "regenerator-runtime": "^0.12.1",
+    "bitcoinjs-lib": "^4.0.2",
+    "bignumber.js": "^8.0.1",
+    "json-bigint": "^0.3.0",
+    "commander": "^2.19.0",
+    "blockchain.info": "^2.12.1",
+    "request-promise": "^4.2.2",
+    "aws-sdk": "^2.325.0",
+    "mocha": "5.2.0",
+    "chai": "4.2.0",
+    "enzyme": "3.8.0",
+    "enzyme-adapter-react-16": "1.7.1",
+    "binascii": "0.0.2",
+    "bootstrap": "^4.1.3",
+    "prop-types": "^15.6.2",
+    "react": "^16.4.2",
+    "react-bootstrap": "^0.32.1",
+    "react-dom": "^16.4.2",
+    "react-redux": "^5.0.7",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "^1.1.4",
+    "react-table": "^6.8.6",
+    "redux": "^4.0.0",
+    "redux-logger": "^3.0.6",
+    "redux-promise": "^0.6.0",
+    "request": "^2.88.0",
+    "safe-buffer": "^5.1.2",
+    "trezor-connect": "^6.0.1"
+  },
+  "scripts": {
+    "start": "HTTPS=true react-scripts start",
+    "build": "react-scripts build",
+    "test": "mocha --recursive --grep @integration --invert",
+    "eject": "react-scripts eject"
+  },
+  "bin": {
+    "export_ledger_pubkey": "./bin/export_ledger_pubkey.js",
+    "generate_multisig_redeem_script": "./bin/generate_multisig_redeem_script.js",
+    "generate_multisig_address": "./bin/generate_multisig_address.js",
+    "get_utxo_set": "./bin/get_utxo_set.js",
+    "generate_outputs": "./bin/generate_outputs.js",
+    "sign_multisig_spend": "./bin/sign_multisig_spend.js",
+    "construct_signed_transaction": "./bin/construct_signed_transaction.js"
+  }
+}

@@ -1,0 +1,10 @@
+[run]
+branch = True
+omit = pymultisig/tests/*
+       pymultisig/__init__.py
+
+[report]
+show_missing = True
+exclude_lines =
+    except ModuleNotFoundError:
+    if __name__ == .__main__.:

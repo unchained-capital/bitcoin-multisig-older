@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+trezor = "==0.11.2"
+blockchain = "==1.4.4"
+python-bitcoinlib = "*"
+
+[dev-packages]
+pytest = "*"
+pytest-cov = "*"
+tox = "*"
+
+[requires]
+python_version = "3.7"
