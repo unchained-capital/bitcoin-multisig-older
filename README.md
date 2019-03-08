@@ -95,7 +95,7 @@ make js-test-integration
 ## Examples
 
 Examples of the full set of command line scripts are available in
-[examples/run_all_trezor.sh](examples/run_all_trezor.sh) and [examples/run_allledger.sh](examples/run_allledger.sh).
+[examples/run_all_trezor.sh](examples/run_all_trezor.sh) and [examples/run_all_ledger.sh](examples/run_all_ledger.sh).
 
 If you are starting from a funded multisig vault and corresponding information,
 examples are provided in [examples/spend_only_trezor.sh](examples/spend_only_trezor.sh) and
