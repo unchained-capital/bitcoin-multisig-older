@@ -10,9 +10,6 @@ VENV_DIR  := $(ROOT_DIR)/.venv
 # == Configuration ==
 #
 
-#TESTRPC_PORT ?= 8545
-#DAPP_PORT    ?= 8435
-
 #
 # == Commands ==
 #
