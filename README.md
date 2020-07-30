@@ -1,3 +1,6 @@
+### THIS REPOSITORY IS NO LONGER MAINTAINED AND SHOULD BE REPLACED BY HWI
+
+
 # Unchained Capital - Bitcoin Multisig Transaction Signing Scripts
 
 The included scripts are sufficient to author and
